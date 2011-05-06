@@ -7,7 +7,6 @@ URL:		http://www.solbu.net/hoved/english/software.htm
 Source0: 	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
 Summary: 	Colorized output from tail, like your logfiles.
 BuildArch:      noarch
-
 Requires: 	perl
 
 %description
@@ -24,7 +23,7 @@ install -m755 %{name} -D %{buildroot}%{_bindir}/%{name}
 install -m644 %{name}rc -D %{buildroot}%{_sysconfdir}/%{name}rc
 
 %files
-%doc README THANKS TIPS TODO examples copyright changelog.gz
+%doc README THANKS TIPS TODO examples changelog.gz
 %{_bindir}/%{name}
 %{_sysconfdir}/%{name}rc
 %{_mandir}/man1/%{name}.1*
