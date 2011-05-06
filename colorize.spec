@@ -7,7 +7,7 @@ URL:		http://www.solbu.net/hoved/english/software.htm
 Source0:	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
 Summary:	Colorized output from tail, like your log files
 BuildArch:	noarch
-Requires: 	perl
+Requires:	perl
 
 %description
 This is a perl script, made by Istvan Karaszi, to colorize' your logs.
