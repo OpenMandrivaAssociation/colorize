@@ -25,5 +25,5 @@ install -m644 %{name}rc -D %{buildroot}%{_sysconfdir}/%{name}rc
 %files
 %doc README THANKS TIPS TODO examples changelog.gz
 %{_bindir}/%{name}
-%{_sysconfdir}/%{name}rc
+%config(noreplace) %{_sysconfdir}/%{name}rc
 %{_mandir}/man1/%{name}.1*
