@@ -17,6 +17,8 @@ in your home directory ($HOME), or system-wide (/etc/colorizerc).
 %prep
 %setup -q
 
+%build
+
 %install
 install -m644 %{name}.1.gz -D %{buildroot}%{_mandir}/man1/%{name}.1.gz
 install -m755 %{name} -D %{buildroot}%{_bindir}/%{name}
