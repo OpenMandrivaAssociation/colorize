@@ -5,7 +5,7 @@ License: 	GPLv2+
 Group:		Text tools
 URL:		http://www.solbu.net/hoved/english/software.htm
 Source0: 	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
-Summary: 	Colorized output from tail, like your logfiles
+Summary: 	Colorized output from tail, like your log files
 BuildArch:      noarch
 Requires: 	perl
 
