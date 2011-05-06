@@ -11,7 +11,7 @@ Requires: 	perl
 
 %description
 This is a perl script, made by Istvan Karaszi, to colorize' your logs.
-You can use your own colors, you can simply modify your config file 
+You can use your own colors, you can simply modify your configuration file 
 in your home directory ($HOME), or system-wide (/etc/colorizerc).
 
 %prep
