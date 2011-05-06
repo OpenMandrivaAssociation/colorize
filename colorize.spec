@@ -1,12 +1,12 @@
-Name:    	colorize
-Version: 	0.3.4
-Release: 	1
-License: 	GPLv2+
+Name:		colorize
+Version:	0.3.4
+Release:	1
+License:	GPLv2+
 Group:		Text tools
 URL:		http://www.solbu.net/hoved/english/software.htm
-Source0: 	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
-Summary: 	Colorized output from tail, like your log files
-BuildArch:      noarch
+Source0:	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
+Summary:	Colorized output from tail, like your log files
+BuildArch:	noarch
 Requires: 	perl
 
 %description
