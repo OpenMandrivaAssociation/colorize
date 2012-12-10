@@ -29,3 +29,24 @@ install -m644 %{name}rc -D %{buildroot}%{_sysconfdir}/%{name}rc
 %config(noreplace) %{_sysconfdir}/%{name}rc
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
+
+
+%changelog
+* Sat May 07 2011 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.3.4-1
++ Revision: 671289
+- add empty %%build section for consistency and to satisfy rpmlint
+- fix mixed-use-of-spaces-and-tabs
+- cosmetics
+- don't abbreviate 'configuration' with 'config' to satisfy rpmlint
+- mark config file as %%config(noreplace)
+- indent
+- fix incorrect spelling
+- remove '.' at end of summary line
+- drop copyright file as the license doesn't require to ship it
+- cleanups
+- remove legacy rpm stuff
+- imported package colorize
+
+
+* Thu Apr 2 2010 Johnny A. Solbu <johnny@solbu.net> 0.3.4-1mdv
+- Initial release
