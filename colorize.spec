@@ -1,6 +1,6 @@
 Name:		colorize
 Version:	0.3.4
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Text tools
 URL:		http://www.solbu.net/hoved/english/software.htm
