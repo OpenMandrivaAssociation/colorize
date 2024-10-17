@@ -3,7 +3,7 @@ Version:	0.3.4
 Release:	2
 License:	GPLv2+
 Group:		Text tools
-URL:		http://www.solbu.net/hoved/english/software.htm
+URL:		https://www.solbu.net/hoved/english/software.htm
 Source0:	http://www.solbu.net/progs/%{name}-%{version}.tar.gz
 Summary:	Colorized output from tail, like your log files
 BuildArch:	noarch
